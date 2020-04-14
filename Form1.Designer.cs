@@ -206,7 +206,9 @@
             this.Controls.Add(this.card2);
             this.Controls.Add(this.card1);
             this.Controls.Add(this.card0);
+            this.Location = new System.Drawing.Point(100, 100);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Memory Game";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.card0)).EndInit();
