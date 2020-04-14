@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//***TEST CHANGE*********//
 /*Memory Card game.  Turn over at most two cards at a time.  
  If you turn over the same two cards, you get a match and the cards can stay face up.
  Win by matching all the cards. */
@@ -281,6 +281,11 @@ namespace Memory
                     cardArray[i].matched + "\n";
             }
             MessageBox.Show(debugString);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
