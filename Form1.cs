@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 /*Memory Card game.  Turn over at most two cards at a time.  
  If you turn over the same two cards, you get a match and the cards can stay face up.
- Win by matching all the cards. */
+ Win by matching all the cards. April 14, 2020*/
 namespace Memory
 {
     struct Card
