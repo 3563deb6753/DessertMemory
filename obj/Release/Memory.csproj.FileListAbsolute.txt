@@ -8,3 +8,14 @@ C:\Users\djbean\source\repos\Memory\obj\Release\Memory.csproj.CoreCompileInputs.
 C:\Users\djbean\source\repos\Memory\obj\Release\Memory.exe
 C:\Users\djbean\source\repos\Memory\obj\Release\Memory.pdb
 C:\Users\djbean\source\repos\Memory\obj\Release\Memory.csprojAssemblyReference.cache
+C:\Users\djbean\source\repos\djbean3563\DessertMemory\bin\Release\Memory.exe.config
+C:\Users\djbean\source\repos\djbean3563\DessertMemory\bin\Release\Memory.exe
+C:\Users\djbean\source\repos\djbean3563\DessertMemory\bin\Release\Memory.pdb
+C:\Users\djbean\source\repos\djbean3563\DessertMemory\obj\Release\Memory.csprojAssemblyReference.cache
+C:\Users\djbean\source\repos\djbean3563\DessertMemory\obj\Release\Memory.Form1.resources
+C:\Users\djbean\source\repos\djbean3563\DessertMemory\obj\Release\Memory.GameTimerForm.resources
+C:\Users\djbean\source\repos\djbean3563\DessertMemory\obj\Release\Memory.Properties.Resources.resources
+C:\Users\djbean\source\repos\djbean3563\DessertMemory\obj\Release\Memory.csproj.GenerateResource.cache
+C:\Users\djbean\source\repos\djbean3563\DessertMemory\obj\Release\Memory.csproj.CoreCompileInputs.cache
+C:\Users\djbean\source\repos\djbean3563\DessertMemory\obj\Release\Memory.exe
+C:\Users\djbean\source\repos\djbean3563\DessertMemory\obj\Release\Memory.pdb
