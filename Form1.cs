@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//***TEST CHANGE*********//
+
 /*Memory Card game.  Turn over at most two cards at a time.  
  If you turn over the same two cards, you get a match and the cards can stay face up.
  Win by matching all the cards. */
@@ -22,19 +22,29 @@ namespace Memory
     }
 
     enum SecretPic {Back, Choco, CupCake, Donut, Nutella, Orange, Vanilla};
-
     public partial class Form1 : Form
     {
         //main array of cards
-        Card[] cardArray = new Card[12]; 
-        
+        Card[] cardArray = new Card[12];
+
+        //timer
+        GameTimerForm myTimerForm;
+
         public Form1()
         {
             InitializeComponent();
             InitializeCards();
             DisplayCards();
+            StartTimer();
         }
 
+        private void StartTimer()
+        {
+            myTimerForm = new GameTimerForm();
+            myTimerForm.GameTimer.Start();
+            myTimerForm.Show();
+
+        }
         /*This method creates and deals all the cards for the beginning of the game.*/
         private void InitializeCards()
         {
@@ -107,17 +117,23 @@ namespace Memory
                 }
             }
             if (won)
+            {
+                myTimerForm.GameTimer.Stop();
                 PlayAgain();
+            }
         }
 
         //This method asks the user if they want to play again and reintializes the game.
         private void PlayAgain()
         {
+            
             DialogResult dr = MessageBox.Show("Play Again?", "YOU WON!!", MessageBoxButtons.YesNo);
             if (dr == DialogResult.Yes)
             {
+                myTimerForm.Close();//close old timer
                 InitializeCards();
                 DisplayCards();
+                StartTimer();
             }
             else
                 this.Close();
