@@ -1,0 +1,10 @@
+C:\Users\djbean\source\repos\Memory\bin\Debug\Memory.exe.config
+C:\Users\djbean\source\repos\Memory\bin\Debug\Memory.exe
+C:\Users\djbean\source\repos\Memory\bin\Debug\Memory.pdb
+C:\Users\djbean\source\repos\Memory\obj\Debug\Memory.csprojAssemblyReference.cache
+C:\Users\djbean\source\repos\Memory\obj\Debug\Memory.Form1.resources
+C:\Users\djbean\source\repos\Memory\obj\Debug\Memory.Properties.Resources.resources
+C:\Users\djbean\source\repos\Memory\obj\Debug\Memory.csproj.GenerateResource.cache
+C:\Users\djbean\source\repos\Memory\obj\Debug\Memory.csproj.CoreCompileInputs.cache
+C:\Users\djbean\source\repos\Memory\obj\Debug\Memory.exe
+C:\Users\djbean\source\repos\Memory\obj\Debug\Memory.pdb
